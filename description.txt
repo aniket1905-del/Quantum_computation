@@ -1,0 +1,12 @@
+here i'm trying to learn and implement the quantum teleportation algorithm 
+
+the library used in this algorithm is: qiskit
+and the modules are:
+
+import numpy as np
+from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
+from qiskit import IBMQ, Aer, transpile, assemble
+from qiskit.visualization import plot_histogram, plot_bloch_multivector, array_to_latex , plot_state_qsphere
+from qiskit.extensions import Initialize
+from qiskit.ignis.verification import marginal_counts
+from qiskit.quantum_info import random_statevector
